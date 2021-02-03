@@ -1,0 +1,170 @@
+.yellowText {
+    color: #F59F0A;
+  }
+  .bigBackBanner {
+    /*width: 100vw;*/
+    height: 55vh;
+  }
+
+  .bigBackBanner > img, video{
+    height: 100%;
+    width: 100%;
+  }
+.yellowBox, .greenBox{
+    background-color: #F59F0A;
+    display: flex;
+    flex-direction: row;
+    /*padding: 50px 20vw 75px 20vw;*/
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+.yellowBox > *{
+  margin-bottom: 50px;
+}
+.visions{
+    
+    background-color: #E0E1E2;
+}
+
+.yellowBoxQuest{
+  padding: 20px 30px;
+  border-right: 3px solid #fff;
+  margin-right: 50px;
+}
+.yellowBoxAns{
+  font-size: 1.2rem;
+  width: 350px;
+}
+
+.qui {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.rest {
+  font-size: 1.5rem;
+}
+
+.hor h2 {
+  width: 30%; 
+  font-size: 1.8rem;
+  text-align: center; 
+  color: #F59F0A;
+  border-bottom: 3px solid #F59F0A; 
+  line-height: 0.2em;
+  margin: 10px 0 20px; 
+
+} 
+
+.no-hor h2{
+  width: 30%; 
+  font-size: 1.8rem;
+  text-align: center; 
+  color: #F59F0A;
+  margin: 10px 0 20px;
+} 
+
+.hor h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.visions span{
+  background-color:#E0E1E2; 
+  
+}
+.hor span {    
+  padding:0 30px; 
+}
+
+.services span{
+  background: rgba(255, 255, 255, .3);
+
+}
+
+.services {
+  margin-top: -5px;
+  background-image: url('./services.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+.hor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.servicesCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px;
+
+}
+
+.card {
+  padding: 3%;
+  margin: 30px;
+  height: 220px;
+  width: 220px;
+  background-color: #E0E1E2;
+  text-align: center;
+}
+
+.card > p{
+  font-size: 1rem;
+}
+
+.card > img {
+  object-fit: contain;
+  height: 30%;
+}
+
+.partenaires span {
+  background-color: #fff;
+}
+.partenaires{
+  margin-top: 20px;
+}
+
+.partLogo {
+  padding: 30px;
+  text-align: center;
+}
+
+.partLogo > img {
+  margin: 50px;
+}
+@media (max-width: 1488px) {
+  .servicesCards {
+    padding: 100px 0px;
+  }
+}
+@media (max-width: 813px) {
+  
+  .partLogo  {
+    padding: 0;
+  }
+  .partLogo > img {
+    margin: 0px;
+    width: 175px;
+  }
+  .hor h2 {
+    font-size: 1.5rem;
+    line-height: normal;
+    border: none;
+    margin: auto;
+    width: auto;
+  }
+  .yellowBoxAns{
+    padding: 10px 30px;
+  }
+}

@@ -1,0 +1,50 @@
+.mbody{
+    text-align: center;
+    padding: 100px ;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+.cond{
+    color: #F59F0A;
+    text-decoration: underline;
+    font-size: bold;
+}
+p{
+    padding: 30px;
+}
+.greenButton-mod{
+    
+    padding: 15px 50px;
+    background-color: #1DC70C;
+    border-radius: 5px;
+    width: 200px;
+    bottom: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.dev {
+    margin-bottom: 35px;
+}
+
+@media(max-width: 770px){
+    .mbody h3{
+        text-align: center;
+    }
+    .mbody{
+        text-align: left;
+        padding: 30px;
+    }
+}
+@media(max-width: 645px) {
+    .mbody{
+        font-size: 1.1rem;
+        padding: 10px;
+    }
+    
+}
+@media(max-width:1025px){
+    .cond{
+        margin-top: 100px;
+    }
+}

@@ -1,0 +1,17 @@
+.yellowText {
+  color: #F59F0A;
+}
+
+.logo {
+  object-fit: contain;
+  height: 100%;
+}
+
+@media (max-width: 800px) {
+  
+  .logo {
+    object-fit: contain;
+    width: 25%;
+  }
+  
+}

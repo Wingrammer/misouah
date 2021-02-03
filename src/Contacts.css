@@ -1,0 +1,130 @@
+.contact span {
+    background-color: #fff;
+}
+
+.contact {
+    padding: 50px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.contactIcon > .squareMainFooter {
+    height: 200px;
+    width: 300px;
+    padding: 30px;
+}
+
+.contactIcon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.map{    
+    height: 350px;
+    
+}
+.contactForm{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0E1E2;
+}
+
+.mainContactForm{
+    flex: 1;
+}
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.formGroup > *{
+    padding: 15px 0;
+}
+
+.formGroup > input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+textarea {
+    border: none;
+    height: 200px;
+    outline: none;
+    font-size: 18px;
+}
+button {
+    width: 250px;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    border-radius: 4%;
+    background-color: #F59F0A;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+/*.mainContactForm{
+    height: 100vh;
+}
+.contactForm {
+    background-color: #E0E1E2;
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 1.5rem;
+    width: 100%;
+}
+.formGroup{
+    padding: 50px;
+}
+
+
+
+
+
+*/
+@media(max-width: 1215px) and (min-width:1065px){
+    .contactIcon > .squareMainFooter {
+        height: 200px;
+        width: 300px;
+        padding: 5px;
+    }
+}
+@media(max-width: 1065px) and (min-width:760px){
+    .contactIcon > .squareMainFooter {
+        height: 150px;
+        width: 200px;
+        padding: 5px;
+    }
+}
+@media(max-width: 760px){
+    .contactIcon > .squareMainFooter {
+        height: 200px;
+        width: 300px;
+        padding: 5px;
+    }
+}
+@media(max-width:1025px){
+    .hor h2 {
+        font-size: 1.5rem;
+        line-height: normal;
+        border: none;
+        margin: auto;
+        width: auto;
+      }
+    .bigBackBanner{
+        height: 25vh;
+    }
+    .bigBackBanner img{
+        margin-top: 100px;
+    }
+    .contact-body{
+        margin-top: 100px;
+    }
+}

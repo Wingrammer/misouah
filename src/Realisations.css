@@ -1,0 +1,36 @@
+.greenBox {
+    background-color: #1DC70C;
+    
+}
+.greenBox h1{
+    margin: 0;
+}
+.greenText {
+    color: #1DC70C;
+}
+.greenButton {
+    
+    padding: 15px 50px;
+    background-color: #1DC70C;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+}
+.greenButton a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+@media(max-width:940px){
+    .greenBox{
+    margin-top: 100px;
+    }
+}
+/*@media (max-width: 1200px) and (min-width: 605px) {
+    .gre {
+      margin-bottom: 25px;
+    }
+    .body{
+      background-color: #E0E1E2;
+    }
+  }*/
